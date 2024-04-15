@@ -1,0 +1,17 @@
+package com.mytech.mvcshop.config;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.web.WebApplicationInitializer;
+
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+
+public class WebAppInitializer implements WebApplicationInitializer{
+
+	@Override
+	public void onStartup(ServletContext servletContext) throws ServletException {
+		AnnotationConfigApplicationContext appContext = new AnnotationConfigApplicationContext();
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+#Mon Apr 15 16:35:46 ICT 2024
+a=finishWizard
+c=0
+cl=org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard
+cmp=usage
+ct=jbt
+d=1713173746955
+l=Wizard class name
+s=5
+v=2.3.100
+vl=How many times the 'Finish' button pressed during the day

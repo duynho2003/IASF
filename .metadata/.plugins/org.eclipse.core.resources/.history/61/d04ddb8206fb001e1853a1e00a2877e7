@@ -1,0 +1,6 @@
+package com.mytech.mvcshop.controllers;
+
+@Controller
+public class AppController {
+
+}
