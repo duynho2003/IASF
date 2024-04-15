@@ -1,0 +1,5 @@
+package com.mytech.hellospring;
+
+public class AppConfig {
+
+}

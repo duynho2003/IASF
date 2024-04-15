@@ -1,0 +1,10 @@
+package com.mytech.hellospring.beans;
+
+public class PngFileEditor implements ImageFileEditor {
+	
+	@Override
+	public String readImage(String fileName) {
+		
+		return null;
+	}
+}

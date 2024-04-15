@@ -1,0 +1,5 @@
+package com.mytech.hellospring.beans;
+
+public class HelloMessageImpl {
+
+}

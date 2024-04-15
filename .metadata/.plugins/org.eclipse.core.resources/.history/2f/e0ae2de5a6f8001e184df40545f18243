@@ -1,0 +1,13 @@
+package com.mytech.hellospring.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("PngEditor")
+public class PngFileEditor implements ImageFileEditor {
+	
+	@Override
+	public String readImage(String fileName) {
+		System.out.println("Reading image with PNG format...");
+		return "Proccessed PNG Image !";
+	}
+}

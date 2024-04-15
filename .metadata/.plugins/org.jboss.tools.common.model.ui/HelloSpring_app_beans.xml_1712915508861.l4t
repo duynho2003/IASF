@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Layout resource="/HelloSpring/src/main/resources/app_beans.xml">
+ <TreeFormPage>
+  <Memento type="FileCDIBeans11">
+   <Memento type="Cdi Beans"/>
+  </Memento>
+ </TreeFormPage>
+</Layout>

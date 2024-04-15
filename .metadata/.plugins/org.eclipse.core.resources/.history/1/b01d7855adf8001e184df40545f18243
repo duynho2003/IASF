@@ -1,0 +1,21 @@
+package com.mytech.hellospring.aop;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect
+public class ImageProcessorAdvice {
+	
+	@Pointcut("execution(* com.mytech.hellospring.services.ImageProcessor.rendering()")
+	public void renderImageExecution() {}
+	
+	@Before("renderImageExecution")
+	public void simpleLogAdvice(JoinPoint) {
+		
+	}
+	
+}

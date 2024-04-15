@@ -1,0 +1,9 @@
+package com.mytech.hellospring.services;
+
+import com.mytech.hellospring.beans.ImageFileEditor;
+
+public class ImageProcessor {
+
+	@Autowired
+	private ImageFileEditor imageFileEditor;
+}
