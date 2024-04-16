@@ -1,7 +1,0 @@
-package com.mytech.mvcshop.config;
-
-import org.springframework.web.WebApplicationInitializer;
-
-public class WebAppInitializer implements WebApplicationInitializer{
-
-}

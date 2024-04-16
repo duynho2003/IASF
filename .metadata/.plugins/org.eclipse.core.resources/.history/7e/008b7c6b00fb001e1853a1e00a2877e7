@@ -1,5 +1,0 @@
-package com.mytech.mvcshop.config;
-
-public class WebAppInitializer {
-
-}
