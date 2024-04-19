@@ -32,9 +32,9 @@ public class WebMvcConfig implements WebMvcConfigurer {
 		registry.addResourceHandler("/resources/**").addResourceLocations("/resources");
 		registry.addResourceHandler("/uploads/**").addResourceLocations("/uploads");
 	}
-
+	
 	@Bean
-	StandardServletMultipartResolver getMultipartResolver() {
+	StandardServletMultipartResolver multipartResolver() {
 		return new StandardServletMultipartResolver();
 	}
 }

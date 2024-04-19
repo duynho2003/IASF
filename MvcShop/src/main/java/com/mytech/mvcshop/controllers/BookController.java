@@ -48,42 +48,42 @@ public class BookController {
 	}
 
 	@PostMapping(value = "/save")
-	public String saveBook(@RequestParam("file") MultipartFile file, @ModelAttribute("book") Book book, HttpServletRequest request) {
+	public String saveBook(@RequestParam("file") MultipartFile file, @ModelAttribute("book") Book book,
+			HttpServletRequest request) {
 
-		// Save file Upload
-//		System.out.println("File info: " + file.getOriginalFilename());
-//		String orgName = "";
-//
-//		if (!file.isEmpty()) {
-//			try {
-//				String uploadsDir = "/uploads/";
-//				String realPathtoUploads = request.getServletContext().getRealPath(uploadsDir);
-//				if (!new File(realPathtoUploads).exists()) {
-//					new File(realPathtoUploads).mkdir();
-//				}
-//
-//				System.out.println("Uploaded: " + realPathtoUploads);
-//
-//				orgName = file.getOriginalFilename();
-//				String filePath = realPathtoUploads + orgName;
-//				File dest = new File(filePath);
-//				file.transferTo(dest);
-//			} catch (Exception e) {
-//				System.out.println("exception");
-//			}
-//		}
+		System.out.println("File info: " + file.getOriginalFilename());
+		String orgName = "";
 
-		System.out.println("Book: " + book.getTitle() + " -- " + book.getAuthor());
-		
-//		book.setImage(orgName);
+		if (!file.isEmpty()) {
+			try {
+				String uploadsDir = "/uploads/";
+				String realPathtoUploads = request.getServletContext().getRealPath(uploadsDir);
+				if (!new File(realPathtoUploads).exists()) {
+					new File(realPathtoUploads).mkdir();
+				}
+
+				System.out.println("Uploaded: " + realPathtoUploads);
+
+				orgName = file.getOriginalFilename();
+				String filePath = realPathtoUploads + orgName;
+				File dest = new File(filePath);
+				file.transferTo(dest);
+			} catch (Exception e) {
+				System.out.println("exception");
+			}
+		}
+
+		System.out.println("Save book:" + book.getId() + " - " + book.getTitle());
+
+		book.setImage(orgName);
 		bookService.save(book);
-
+		
 		return "redirect:/books";
 	}
 
 	@PostMapping("/addcart")
 	public String addCart() {
-		System.out.println("------");
+		System.out.println("--------");
 		return "index";
 	}
 }

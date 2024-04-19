@@ -10,6 +10,6 @@ import com.mytech.mvcshop.entities.Book;
 
 public interface BookRepository extends CrudRepository<Book, Long> {
 
-	@Query(value = "SELECT b FROM Book b WHERE b.title LIKE '%' || :searchText || '%' OR b.author LIKE '%' || :searchText || '%'")
+	@Query(value = "SELECT  b FROM Book b WHERE b.title LIKE '%' || :searchText || '%' OR b.author LIKE '%' || :searchText || '%'")
 	public List<Book> search(@Param("searchText") String searchText);
 }

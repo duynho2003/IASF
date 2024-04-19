@@ -27,7 +27,7 @@
 				list</a>
 		</h2>
 		<div>
-			<form:form action="save" method="post" modelAttribute="book">
+			<form:form action="save" method="post" modelAttribute="book" enctype="multipart/form-data">
 				<table class="table">
 					<tr>
 						<td>Book title:</td>
@@ -43,7 +43,10 @@
 						<td>Price:</td>
 						<td><form:input path="price" /></td>
 					</tr>
-					
+					<tr>
+						<td>Select a file to upload</td>
+						<td><input type="file" name="file" /></td>
+					</tr>
 					<tr>
 						<td colspan="2"><input type="submit" value="Create"></td>
 					</tr>

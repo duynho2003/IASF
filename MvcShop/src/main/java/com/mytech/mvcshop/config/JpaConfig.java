@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import jakarta.persistence.EntityManagerFactory;
 
 @Configuration
-@EnableJpaRepositories(basePackages = { "com.mytech.mvcshop.repositories" })
+@EnableJpaRepositories(basePackages = {"com.mytech.mvcshop.repositories"})
 @EnableTransactionManagement
 public class JpaConfig {
 

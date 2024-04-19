@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>JBoss Tools Aggregated Feed</title>
   <id>https://tools.jboss.org</id>
-  <updated>2024-04-17T00:41:07Z</updated>
+  <updated>2024-04-19T00:40:42Z</updated>
   <link href="https://tools.jboss.org"/>
   <xhtml:meta content="noindex" name="robots" xmlns:xhtml="http://www.w3.org/1999/xhtml"/><entry>
+    <title>Red Hat Developer: Red Hat Trusted Software Supply Chain is now available</title>
+    <updated>2024-04-18T12:27:00Z</updated>
+    <id>2c923162-748e-4d09-b609-dabe3c942837</id>
+    <link href="https://developers.redhat.com/articles/2024/04/18/red-hat-trusted-software-supply-chain-now-available" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Quarkus 3.9.4 released - Maintenance release</title>
+    <updated>2024-04-18T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-9-4-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-9-4-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Revolutionizing time tracking: how Quarkus transformed our backend development</title>
+    <updated>2024-04-18T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-saas-backend-time-tracking-app-case-study/</id>
+    <link href="https://quarkus.io/blog/quarkus-saas-backend-time-tracking-app-case-study/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Quarkus 3.9.4 released - Maintenance release</title>
+    <updated>2024-04-18T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-9-4-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-9-4-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Revolutionizing time tracking: how Quarkus transformed our backend development</title>
+    <updated>2024-04-18T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-saas-backend-time-tracking-app-case-study/</id>
+    <link href="https://quarkus.io/blog/quarkus-saas-backend-time-tracking-app-case-study/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Synchronize instance tags from Amazon EC2 and Microsoft Azure with Red Hat Insights</title>
+    <updated>2024-04-17T07:00:00Z</updated>
+    <id>255642ce-124f-466c-a3ad-8193e30d94a1</id>
+    <link href="https://developers.redhat.com/articles/2024/04/17/synchronize-instance-tags-amazon-ec2-and-microsoft-azure-red-hat-insights" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: How to configure Keycloak Log Level</title>
+    <updated>2024-04-17T06:45:16Z</updated>
+    <id>https://www.mastertheboss.com/keycloak/how-to-configure-keycloak-log-level/</id>
+    <link href="https://www.mastertheboss.com/keycloak/how-to-configure-keycloak-log-level/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Quarkus 3.8.4 released - Maintenance release</title>
+    <updated>2024-04-17T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-8-4-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-8-4-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Quarkus 3.2.12.Final released - Maintenance LTS release</title>
+    <updated>2024-04-17T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-2-12-final-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-2-12-final-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Quarkus 3.2.12.Final released - Maintenance LTS release</title>
+    <updated>2024-04-17T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-2-12-final-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-2-12-final-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Quarkus 3.8.4 released - Maintenance release</title>
+    <updated>2024-04-17T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-8-4-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-8-4-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>JBoss Blogs: Speed your migration to JBoss EAP 8 with Windup</title>
     <updated>2024-04-16T15:41:07Z</updated>
     <id>https://www.mastertheboss.com/jboss-frameworks/windup/speed-your-migration-to-jboss-eap-8-with-windup/</id>
@@ -25,6 +102,13 @@
     <summary type="html"/>
   </entry>
   <entry>
+    <title>Quarkus: Quarkus Newsletter #43 - April</title>
+    <updated>2024-04-16T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-newsletter-43/</id>
+    <link href="https://quarkus.io/blog/quarkus-newsletter-43/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>JBoss Blogs: Keycloak 24.0.3 released</title>
     <updated>2024-04-16T00:00:00Z</updated>
     <id>https://www.keycloak.org/2024/04/keycloak-2403-released</id>
@@ -32,10 +116,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Red Hat build of Keycloak high availability: A simplified approach</title>
-    <updated>2024-04-15T07:00:00Z</updated>
-    <id>87f48fb2-1046-45cd-9a0a-862a19513c5a</id>
-    <link href="https://developers.redhat.com/articles/2024/04/15/red-hat-build-keycloak-high-availability-simplified-approach" rel="alternate"/>
+    <title>JBoss Blogs: Quarkus Newsletter #43 - April</title>
+    <updated>2024-04-16T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-newsletter-43/</id>
+    <link href="https://quarkus.io/blog/quarkus-newsletter-43/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -43,6 +127,13 @@
     <updated>2024-04-15T07:00:00Z</updated>
     <id>5a535088-5c6e-485d-b978-b368d3ba9679</id>
     <link href="https://developers.redhat.com/articles/2024/04/15/patch-updates-rhel-servers-ansible-automation-platform-24" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Red Hat build of Keycloak high availability: A simplified approach</title>
+    <updated>2024-04-15T07:00:00Z</updated>
+    <id>87f48fb2-1046-45cd-9a0a-862a19513c5a</id>
+    <link href="https://developers.redhat.com/articles/2024/04/15/red-hat-build-keycloak-high-availability-simplified-approach" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -60,17 +151,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Modernization - Managing Data during the process</title>
+    <title>Red Hat Developer: Modernization: Managing data during the process</title>
     <updated>2024-04-12T12:33:22Z</updated>
     <id>f3978cd8-0be5-4dcf-8a16-10fc045c4286</id>
     <link href="https://developers.redhat.com/articles/2024/04/12/modernization-managing-data-during-process" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: How to create an automation mesh with Ansible controller</title>
-    <updated>2024-04-12T07:00:00Z</updated>
-    <id>d596a2eb-4987-42c7-a07c-016f283da5b8</id>
-    <link href="https://developers.redhat.com/articles/2024/04/12/how-create-automation-mesh-ansible-controller" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -78,6 +162,13 @@
     <updated>2024-04-12T07:00:00Z</updated>
     <id>20fc0b60-1f0c-4170-b41c-78c579490fcf</id>
     <link href="https://developers.redhat.com/articles/2024/04/12/event-driven-ansible-rulebook-automation" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: How to create an automation mesh with Ansible controller</title>
+    <updated>2024-04-12T07:00:00Z</updated>
+    <id>d596a2eb-4987-42c7-a07c-016f283da5b8</id>
+    <link href="https://developers.redhat.com/articles/2024/04/12/how-create-automation-mesh-ansible-controller" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -123,20 +214,6 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Understand modernization of a traditional Java application with an example</title>
-    <updated>2024-04-08T18:08:47Z</updated>
-    <id>b90c0c44-b345-449d-8ad6-04ae1995f469</id>
-    <link href="https://developers.redhat.com/articles/2024/04/08/understand-modernization-traditional-java-application-example" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: Detect network issues in Open vSwitch using Red Hat Insights</title>
-    <updated>2024-04-08T07:00:00Z</updated>
-    <id>1c7c86ac-2eae-4b0a-bc74-e36cc0ea51a4</id>
-    <link href="https://developers.redhat.com/articles/2024/04/08/detect-network-issues-open-vswitch-using-red-hat-insights" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: WildFly 32 Beta is released!</title>
     <updated>2024-04-08T00:00:00Z</updated>
     <id>https://wildfly.org//news/2024/04/08/WildFly32Beta-released/</id>
@@ -165,6 +242,13 @@
     <summary type="html"/>
   </entry>
   <entry>
+    <title>JBoss Blogs: Quarkus 3.9.2 released - Maintenance release</title>
+    <updated>2024-04-03T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-9-2-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-9-2-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>Quarkus: Changing the Quarkus loggers level from Unleash</title>
     <updated>2024-04-03T00:00:00Z</updated>
     <id>https://quarkus.io/blog/changing-loggers-level-from-unleash/</id>
@@ -179,13 +263,6 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus 3.9.2 released - Maintenance release</title>
-    <updated>2024-04-03T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-9-2-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-9-2-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: How to replace Java Security Manager</title>
     <updated>2024-03-29T14:49:27Z</updated>
     <id>https://www.mastertheboss.com/java/how-to-replace-java-security-manager/</id>
@@ -193,42 +270,7 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Eclipse Vert.x 4.4.9 released!</title>
-    <updated>2024-03-28T00:00:00Z</updated>
-    <id>https://vertx.io/blog/eclipse-vert-x-4-4-9</id>
-    <link href="https://vertx.io/blog/eclipse-vert-x-4-4-9" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Vlog: WildFly Glow, direct deployment to OpenShift</title>
-    <updated>2024-03-28T00:00:00Z</updated>
-    <id>https://youtu.be/GkfSHiqyBDU</id>
-    <link href="https://youtu.be/GkfSHiqyBDU" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: How to install KeyCloak with Ansible</title>
-    <updated>2024-03-27T13:24:35Z</updated>
-    <id>https://www.mastertheboss.com/various-stuff/ansible/how-to-install-keycloak-with-ansible/</id>
-    <link href="https://www.mastertheboss.com/various-stuff/ansible/how-to-install-keycloak-with-ansible/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Ansible CheatSheet for DevOps</title>
-    <updated>2024-03-27T09:29:54Z</updated>
-    <id>https://www.mastertheboss.com/various-stuff/ansible/ansible-cheatsheet-for-devops/</id>
-    <link href="https://www.mastertheboss.com/various-stuff/ansible/ansible-cheatsheet-for-devops/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>Quarkus: Quarkus 3.9 - Big Reactive Rename</title>
-    <updated>2024-03-27T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-9-1-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-9-1-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Quarkus 3.9 - Big Reactive Rename</title>
     <updated>2024-03-27T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-9-1-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-9-1-released/" rel="alternate"/>
@@ -242,48 +284,6 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Eclipse Vert.x 4.5.7 released!</title>
-    <updated>2024-03-27T00:00:00Z</updated>
-    <id>https://vertx.io/blog/eclipse-vert-x-4-5-7</id>
-    <link href="https://vertx.io/blog/eclipse-vert-x-4-5-7" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Evolving Quarkus extension naming for clarity</title>
-    <updated>2024-03-21T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/the-big-rename/</id>
-    <link href="https://quarkus.io/blog/the-big-rename/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus 3.8.3 released - Maintenance release</title>
-    <updated>2024-03-19T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-8-3-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-8-3-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus 3.2.11.Final released - Maintenance LTS release</title>
-    <updated>2024-03-15T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-2-11-final-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-2-11-final-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus Newsletter #42 - March</title>
-    <updated>2024-03-13T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-newsletter-42/</id>
-    <link href="https://quarkus.io/blog/quarkus-newsletter-42/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus 3.8.2 released - Maintenance release</title>
-    <updated>2024-03-07T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-8-2-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-8-2-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Tools: JBoss Tools 4.29.0.Final for Eclipse 2023-09</title>
     <updated>2023-11-02T00:00:00Z</updated>
     <id>https://tools.jboss.org/blog/4.29.0.final.html</id>
@@ -291,17 +291,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Tools: JBoss Tools 4.28.0.Final for Eclipse 2023-06</title>
-    <updated>2023-07-03T00:00:00Z</updated>
-    <id>https://tools.jboss.org/blog/4.28.0.final.html</id>
-    <link href="https://tools.jboss.org/blog/4.28.0.final.html" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: This Week in JBoss - July 03, 2023</title>
     <updated>2023-07-03T00:00:00Z</updated>
     <id>https://www.jboss.org/posts/weekly-2023-07-03.html</id>
     <link href="https://www.jboss.org/posts/weekly-2023-07-03.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Tools: JBoss Tools 4.28.0.Final for Eclipse 2023-06</title>
+    <updated>2023-07-03T00:00:00Z</updated>
+    <id>https://tools.jboss.org/blog/4.28.0.final.html</id>
+    <link href="https://tools.jboss.org/blog/4.28.0.final.html" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -627,17 +627,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Tools: JBoss Tools and Red Hat CodeReady Studio for Eclipse 2021-09 security fix release for Apache Log4j CVE-2021-45105 and CVE-2021-44832</title>
-    <updated>2022-01-13T00:00:00Z</updated>
-    <id>https://tools.jboss.org/blog/12.21.2.ga.html</id>
-    <link href="https://tools.jboss.org/blog/12.21.2.ga.html" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: This Week in JBoss - January 13th 2022</title>
     <updated>2022-01-13T00:00:00Z</updated>
     <id>https://www.jboss.org/posts/weekly-2022-01-13.html</id>
     <link href="https://www.jboss.org/posts/weekly-2022-01-13.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Tools: JBoss Tools and Red Hat CodeReady Studio for Eclipse 2021-09 security fix release for Apache Log4j CVE-2021-45105 and CVE-2021-44832</title>
+    <updated>2022-01-13T00:00:00Z</updated>
+    <id>https://tools.jboss.org/blog/12.21.2.ga.html</id>
+    <link href="https://tools.jboss.org/blog/12.21.2.ga.html" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>

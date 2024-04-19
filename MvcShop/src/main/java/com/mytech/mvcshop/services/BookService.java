@@ -10,5 +10,5 @@ public interface BookService {
 	public List<Book> listAll();
 	public Book get(long id);
 	public void delete(long id);
-	public List<Book> search (String searchText);
+	public List<Book> search(String searchText);
 }

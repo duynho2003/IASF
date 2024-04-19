@@ -17,7 +17,7 @@ public class BookServiceImpl implements BookService {
 
 	@Autowired
 	private BookRepository bookRepository;
-
+	
 	@Override
 	public void save(Book book) {
 		// Implement business logic
@@ -27,6 +27,7 @@ public class BookServiceImpl implements BookService {
 	@Override
 	public void update(Book book) {
 		bookRepository.save(book);
+		
 	}
 
 	@Override
