@@ -20,7 +20,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	ViewResolver getViewResolver() {
 		final InternalResourceViewResolver bean = new InternalResourceViewResolver();
 		bean.setViewClass(JstlView.class);
-		bean.setPrefix("WEB-INF/views/");
+		bean.setPrefix("/WEB-INF/views/");
 		bean.setSuffix(".jsp");
 		
 		return bean;
@@ -30,7 +30,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		WebMvcConfigurer.super.addResourceHandlers(registry);
 		registry.addResourceHandler("/resources/**").addResourceLocations("/resources");
-		registry.addResourceHandler("/upload/**").addResourceLocations("/upload");
+		registry.addResourceHandler("/uploads/**").addResourceLocations("/uploads");
 	}
 
 	@Bean

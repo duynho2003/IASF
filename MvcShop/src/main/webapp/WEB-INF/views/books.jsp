@@ -5,21 +5,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8" />
-<title>MVC shop</title>
-<link rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-	integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-	crossorigin="anonymous" />
+<meta charset="UTF-8">
+<title>MVC Shop</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+	crossorigin="anonymous">
 </head>
 <body>
 	<div class="container mt-5">
-		<h1>Book management</h1>
-
+		<h1>BOOKS MANAGEMENT</h1>
+		<h2>
+			<a href="${pageContext.request.contextPath}/books/add">New book</a>
+		</h2>
 		<div>
-			<form:form>
+			<form:form action="${pageContext.request.contextPath}/books/addcart"
+				modelAttribute="bookOrder" method="post">
+
 				<div>
-					<table id="table-1">
+					<table class="table">
 						<thead>
 							<tr>
 								<th>Add to Cart</th>
@@ -33,14 +38,13 @@
 						<tbody>
 							<c:forEach items="${listBooks}" var="book">
 								<tr>
-									<td></td>
+									<td><form:checkbox path="selectedBooks" value="${book.id}"
+											cssClass="form-check" /></td>
 									<td>${book.title}</td>
 									<td>${book.author}</td>
 									<td>${book.price}</td>
 									<td><img src="#"></img></td>
-									<td>
-										<a href="#">Edit</a> <br>
-										<a href="#">Delete</a> <br>
+									<td><a href="#">Edit</a> <br> <a href="#">Delete</a>
 									</td>
 								</tr>
 							</c:forEach>
@@ -53,8 +57,9 @@
 	</div>
 
 	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-		integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 		crossorigin="anonymous"></script>
+
 </body>
 </html>
