@@ -45,6 +45,11 @@ public class Customer extends AbstractEntity {
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
+	
+	@Transient
+	public String getFullName() {
+		return lastName + " " + firstName;
+	}
 
 	public String getFirstName() {
 		return firstName;

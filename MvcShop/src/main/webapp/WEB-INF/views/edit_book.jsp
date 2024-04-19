@@ -20,10 +20,10 @@
 			<a href="customers">Employees management</a>
 		</h2>
 		<div>
-			<form:form action="${pageContext.request.contextPath}/books/update" method="post" modelAttribute="book">
+			<form:form action="${pageContext.request.contextPath}/books/update" method="post" modelAttribute="book" enctype="multipart/form-data">
 				<table class="table">
 					<tr>
-						<td><form:hidden path="id"/></td>
+						<td><form:hidden path="id"/><form:hidden path="image"/></td>
 					</tr>
 					<tr>
 						<td>Title:</td>
@@ -38,12 +38,15 @@
 						<td><form:input path="price" /></td>
 					</tr>
 					<tr>
-						<td><img src="${pageContext.request.contextPath}${book.imageUri}" width="164" alt=""></img></td>
+					<td>Image:</td>
+					<td><img src="${pageContext.request.contextPath}${book.imageUri}" width="128"></img></td>
+					</tr>
+					
+					<tr>
 						<td>Select a file to upload</td>
 						<td><input type="file" name="file" /></td>
 					</tr>
 					<tr>
-					
 						<td colspan="2"><input type="submit" value="Update"></td>
 					</tr>
 				</table>

@@ -32,7 +32,7 @@ public class BookServiceImpl implements BookService {
 		dbBook.setPrice(book.getPrice());
 		dbBook.setImage(book.getImage());
 		
-		bookRepository.save(book);
+		bookRepository.save(dbBook);
 		
 	}
 

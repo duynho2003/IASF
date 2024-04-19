@@ -17,7 +17,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.mytech.mvcshop.dtos.BookOrderDto;
 import com.mytech.mvcshop.entities.Book;
+import com.mytech.mvcshop.entities.Customer;
 import com.mytech.mvcshop.services.BookService;
+import com.mytech.mvcshop.services.CustomerService;
 
 import jakarta.servlet.http.HttpServletRequest;
 
@@ -27,15 +29,20 @@ public class BookController {
 
 	@Autowired
 	private BookService bookService;
-
+	
+	@Autowired
+	private CustomerService customerService;
+	
 	@GetMapping
 	public ModelAndView bookHome() {
 		List<Book> listBooks = bookService.listAll();
 		BookOrderDto bookOrderDto = new BookOrderDto();
-
+		List<Customer> listCustomers = customerService.listAll();
+		
 		ModelAndView mav = new ModelAndView("books");
 		mav.addObject("listBooks", listBooks);
 		mav.addObject("bookOrder", bookOrderDto);
+		mav.addObject("listCustomers", listCustomers);
 
 		return mav;
 	}
@@ -66,6 +73,7 @@ public class BookController {
 	public String saveBook(@RequestParam("file") MultipartFile file, @ModelAttribute("book") Book book,
 			HttpServletRequest request) {
 
+		// Save file
 		System.out.println("File info: " + file.getOriginalFilename());
 		String orgName = "";
 
@@ -104,8 +112,13 @@ public class BookController {
 	}
 	
 	@PostMapping("/addcart")
-	public String addCart() {
-		System.out.println("--------");
-		return "index";
+	public String addCart(@ModelAttribute("bookOrder") BookOrderDto bookOrder) {
+		System.out.println("----Customer----" + bookOrder.getUserId());
+		for (long bookId : bookOrder.getSelectedBooks()) {
+			System.out.println("Selected id: " + bookId);
+		}
+		//btvn: repository & service  de save Order
+		
+		return "redirect:/books";
 	}
 }
