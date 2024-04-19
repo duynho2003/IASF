@@ -1,5 +1,0 @@
-package com.mytech.hellospring.aop;
-
-public class ImageProcessorAdvice {
-
-}
