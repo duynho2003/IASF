@@ -38,6 +38,12 @@
 						<td><form:input path="price" /></td>
 					</tr>
 					<tr>
+						<td><img src="${pageContext.request.contextPath}${book.imageUri}" width="164" alt=""></img></td>
+						<td>Select a file to upload</td>
+						<td><input type="file" name="file" /></td>
+					</tr>
+					<tr>
+					
 						<td colspan="2"><input type="submit" value="Update"></td>
 					</tr>
 				</table>

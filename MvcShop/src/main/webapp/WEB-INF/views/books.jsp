@@ -43,8 +43,10 @@
 									<td>${book.title}</td>
 									<td>${book.author}</td>
 									<td>${book.price}</td>
-									<td><img src="#"></img></td>
-									<td><a href="#">Edit</a> <br> <a href="#">Delete</a>
+									<td><img src="${pageContext.request.contextPath}${book.imageUri}" width="164"></img></td>
+									<td>
+										<a href="${pageContext.request.contextPath}/books/edit?id=${book.id}">Edit</a> <br> 
+										<a href="${pageContext.request.contextPath}/books/delete?id=${book.id}">Delete</a>
 									</td>
 								</tr>
 							</c:forEach>

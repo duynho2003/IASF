@@ -26,6 +26,12 @@ public class BookServiceImpl implements BookService {
 
 	@Override
 	public void update(Book book) {
+		Book dbBook = bookRepository.findById(book.getId()).get();
+		dbBook.setTitle(book.getTitle());
+		dbBook.setAuthor(book.getAuthor());
+		dbBook.setPrice(book.getPrice());
+		dbBook.setImage(book.getImage());
+		
 		bookRepository.save(book);
 		
 	}

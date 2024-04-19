@@ -2,6 +2,7 @@ package com.mytech.mvcshop.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
 
 @Entity
 @Table(name = "Books")
@@ -46,4 +47,8 @@ public class Book extends AbstractEntity {
 		this.image = image;
 	}
 
+	@Transient
+	public String getImageUri() {
+		return "/uploads/" + image;
+	}
 }

@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -46,6 +47,20 @@ public class BookController {
 
 		return "add_book";
 	}
+	
+	@GetMapping("/edit")
+	public String editBook(@RequestParam("id") long id, Model model) {
+		Book book = bookService.get(id);
+		model.addAttribute("book", book);
+		return "edit_book";
+	}
+	
+	@GetMapping("/delete")
+	public String deleteBook(@RequestParam("id") long id, Model model) {
+		bookService.delete(id);
+
+		return "redirect:/books";
+	}
 
 	@PostMapping(value = "/save")
 	public String saveBook(@RequestParam("file") MultipartFile file, @ModelAttribute("book") Book book,
@@ -81,6 +96,13 @@ public class BookController {
 		return "redirect:/books";
 	}
 
+	@PostMapping("/update")
+	public String updateBook(@ModelAttribute("book") Book book) {
+		bookService.update(book);
+		
+		return "redirect:/books";
+	}
+	
 	@PostMapping("/addcart")
 	public String addCart() {
 		System.out.println("--------");
