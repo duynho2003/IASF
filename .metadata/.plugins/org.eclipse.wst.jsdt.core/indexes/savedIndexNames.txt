@@ -1,10 +1,7 @@
 INDEX VERSION 1.4+D:\Aptech\IASF\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2220666312.index
-1209475358.index
-3435474180.index
 3966670384.index
 3508433060.index
-4282822467.index
+2220666312.index
 2181825331.index
-1493115576.index
+1209475358.index
 1820521112.index

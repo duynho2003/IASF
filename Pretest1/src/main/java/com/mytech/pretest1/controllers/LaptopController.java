@@ -7,6 +7,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,6 +20,7 @@ import com.mytech.pretest1.entities.Laptop;
 import com.mytech.pretest1.services.LaptopService;
 
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.validation.Valid;
 
 @Controller
 @RequestMapping("/laptops")
@@ -26,17 +28,17 @@ public class LaptopController {
 
 	@Autowired
 	private LaptopService laptopService;
-	
+
 	@GetMapping
 	public ModelAndView laptopHome() {
 		List<Laptop> listLaptops = laptopService.listAll();
-		
+
 		ModelAndView mav = new ModelAndView("laptops");
 		mav.addObject("listLaptops", listLaptops);
 
 		return mav;
 	}
-	
+
 	@GetMapping("/add")
 	public String addLaptop(Map<String, Object> model) {
 		Laptop laptop = new Laptop();
@@ -44,24 +46,28 @@ public class LaptopController {
 
 		return "add";
 	}
-	
+
 	@GetMapping("/edit")
 	public String editLaptop(@RequestParam("id") long id, Model model) {
 		Laptop laptop = laptopService.get(id);
 		model.addAttribute("laptop", laptop);
 		return "edit";
 	}
-	
+
 	@GetMapping("/delete")
 	public String deleteLaptop(@RequestParam("id") long id, Model model) {
 		laptopService.delete(id);
 
 		return "redirect:/laptops";
 	}
-	
+
 	@PostMapping(value = "/save")
-	public String saveBook(@RequestParam("file") MultipartFile file, @ModelAttribute("laptop") Laptop laptop,
-			HttpServletRequest request) {
+	public String saveBook(@RequestParam("file") MultipartFile file, @Valid @ModelAttribute("laptop") Laptop laptop,
+			HttpServletRequest request, BindingResult result) {
+
+		if (result.hasErrors()) {
+			return "add";
+		}
 
 		// Save file
 		System.out.println("File info: " + file.getOriginalFilename());
@@ -90,17 +96,21 @@ public class LaptopController {
 
 		laptop.setImage(orgName);
 		laptopService.save(laptop);
-		
+
 		return "redirect:/laptops";
 	}
 
 	@PostMapping("/update")
-	public String updateLaptop(@ModelAttribute("laptop") Laptop laptop) {
+	public String updateLaptop(@Valid @ModelAttribute("laptop") Laptop laptop, BindingResult result) {
+		// báo lỗi nếu trống rỗng
+		if (result.hasErrors()) {
+			return "edit";
+		}
 		laptopService.update(laptop);
-		
+
 		return "redirect:/laptops";
 	}
-	
+
 	@GetMapping("/search")
 	public ModelAndView bookSearch(@RequestParam("searchText") String searchText) {
 		List<Laptop> listLaptops = laptopService.search(searchText);

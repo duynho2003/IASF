@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name = "Laptops")
@@ -21,16 +21,15 @@ public class Laptop implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
-	@Size(message = "Title must not empty here")
+	@NotEmpty(message = "Title must not empty here")
 	private String title;
 	
-	@Size(message = "Brand must not empty here")
+	@NotEmpty(message = "Brand must not empty here")
 	private String brand;
 	
 	@Min(value = 0, message = "Price must be min 0 $")
 	private double price;
 	
-	@Size(message = "Image must not empty here")
 	private String image;
 
 	public long getId() {

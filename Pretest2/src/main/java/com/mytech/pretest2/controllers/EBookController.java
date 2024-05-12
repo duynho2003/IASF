@@ -9,6 +9,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,6 +24,7 @@ import com.mytech.pretest2.entities.EBook;
 import com.mytech.pretest2.services.EBookService;
 
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.validation.Valid;
 
 @Controller
 public class EBookController{
@@ -49,10 +51,13 @@ public class EBookController{
 	}
 	
 	@PostMapping(value = "/save")
-	public String saveEbook(@ModelAttribute("ebook") EBook ebook, HttpServletRequest request) {
+	public String saveEbook(@Valid @ModelAttribute("ebook") EBook ebook, HttpServletRequest request, BindingResult result) {
 		
 		System.out.println("Save ebook:" + ebook.getId() + " - " + ebook.getTitle());
-
+		//báo lỗi nếu trống rỗng
+		if(result.hasErrors()) {
+			return "add";
+		}
 		eBookService.save(ebook);
 		
 		return "redirect:/";
@@ -64,7 +69,7 @@ public class EBookController{
 	}
 	
 	@PostMapping("/delete")
-	public String deleteBook( @RequestParam("id") int id) {
+	public String deleteBook(@RequestParam("id") int id) {
 		eBookService.delete(id);
 		return "redirect:/";
 	}

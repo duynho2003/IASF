@@ -60,7 +60,7 @@ public class HomeController {
 	public String deleteProduct(@RequestParam("id") long id, Model model) {
 		productService.delete(id);
 		
-		return "redirect:/index";
+		return "redirect:/";
 	}
 	
 	@ResponseBody

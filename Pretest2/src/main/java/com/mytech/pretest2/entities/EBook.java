@@ -9,6 +9,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 @Entity
@@ -21,18 +23,22 @@ public class EBook implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
+	@NotEmpty
 	@Column(length = 200)
 	@Size(min = 1, message = "eBook title must at least 1 chars")
 	private String title;
 
+	@NotEmpty
 	@Column(length = 200)
 	@Size(min = 1, message = "eBook author must at least 1 chars")
 	private String author;
 
+	@NotEmpty
 	@Column(length = 200)
 	@Size(min = 1, message = "eBook publisher must at least 1 chars")
 	private String publisher;
 
+	@NotNull(message = "is required")
 	@Min(value = 50, message = "Must be equal or greater than 50")
 	private int page;
 

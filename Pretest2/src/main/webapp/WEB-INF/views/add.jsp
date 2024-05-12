@@ -31,22 +31,22 @@
 					<tr>
 						<td>Title:</td>
 						<td><form:input path="title" /></td>
-						<td><form:errors path="title" cssClass="error" /></td>
+						<form:errors path="title" cssClass="error" />
 					</tr>
 					<tr>
 						<td>Author:</td>
 						<td><form:input path="author" /></td>
-						<td><form:errors path="author" cssClass="error" /></td>
+						<form:errors path="author" cssClass="error" />
 					</tr>
 					<tr>
 						<td>Publisher:</td>
 						<td><form:input path="publisher" /></td>
-						<td><form:errors path="publisher" cssClass="error" /></td>
+						<form:errors path="publisher" cssClass="error" />
 					</tr>
 					<tr>
 						<td>Pages:</td>
 						<td><form:input path="page" /></td>
-						<td><form:errors path="page" cssClass="error" /></td>
+						<form:errors path="page" cssClass="error" />
 					</tr>
 					<tr>
 						<td colspan="2"><input type="submit" value="Create"></td>
