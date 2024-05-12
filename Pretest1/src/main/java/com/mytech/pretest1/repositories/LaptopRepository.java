@@ -10,7 +10,7 @@ import com.mytech.pretest1.entities.Laptop;
 
 public interface LaptopRepository extends CrudRepository<Laptop, Long>{
 	
-	@Query(value = "SELECT l FROM Laptop l WHERE l.title LIKE '%' || :searchText || '%' OR l.brand LIKE '%' || :searchText || '%'")
+	@Query(value = "SELECT l FROM Laptop l WHERE l.title LIKE '%' || :searchText || '%' OR l.brand LIKE '%' || :searchText || '%' OR l.price LIKE '%' || :searchText || '%'")
 	public List<Laptop> search(@Param("searchText") String searchText);
 
 }
