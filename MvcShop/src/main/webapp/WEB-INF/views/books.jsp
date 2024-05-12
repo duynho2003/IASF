@@ -20,6 +20,15 @@
 		<h2>
 			<a href="${pageContext.request.contextPath}/books/add">New book</a>
 		</h2>
+		<nav class="navbar navbar-light bg-light">
+			<form class="form-inline d-flex"
+				action="${pageContext.request.contextPath}/books/search"
+				method="get">
+				<input class="form-control mx-2" type="search" name="searchText"
+					placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
+		</nav>
 		<div>
 			<form:form action="${pageContext.request.contextPath}/books/addcart"
 				modelAttribute="bookOrder" method="post">

@@ -1,9 +1,233 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>JBoss Tools Aggregated Feed</title>
   <id>https://tools.jboss.org</id>
-  <updated>2024-04-22T06:12:50Z</updated>
+  <updated>2024-05-12T06:12:45Z</updated>
   <link href="https://tools.jboss.org"/>
   <xhtml:meta content="noindex" name="robots" xmlns:xhtml="http://www.w3.org/1999/xhtml"/><entry>
+    <title>JBoss Blogs: Updated version of WildFly Administration guide available!</title>
+    <updated>2024-05-10T09:41:52Z</updated>
+    <id>https://www.mastertheboss.com/articles/news/revised-edition-of-wildfly-books-now-available/</id>
+    <link href="https://www.mastertheboss.com/articles/news/revised-edition-of-wildfly-books-now-available/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Red Hat OpenShift 101 for OpenStack admins: Data plane deployment</title>
+    <updated>2024-05-08T07:00:00Z</updated>
+    <id>412fb258-691e-42bc-bade-a3e4f97bf082</id>
+    <link href="https://developers.redhat.com/articles/2024/05/08/red-hat-openshift-101-openstack-admins-data-plane-deployment" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Red Hat OpenShift 101 for OpenStack admins: Configuration</title>
+    <updated>2024-05-08T07:00:00Z</updated>
+    <id>d0cc3216-c93b-486e-be44-1676b31c2701</id>
+    <link href="https://developers.redhat.com/articles/2024/05/08/red-hat-openshift-101-openstack-admins-configuration" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Keycloak 24.0.4 released</title>
+    <updated>2024-05-08T00:00:00Z</updated>
+    <id>https://www.keycloak.org/2024/05/keycloak-2404-released</id>
+    <link href="https://www.keycloak.org/2024/05/keycloak-2404-released" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Infinispan 15.0.3.Final</title>
+    <updated>2024-05-08T00:00:00Z</updated>
+    <id>https://infinispan.org/blog/2024/05/08/infinispan-15</id>
+    <link href="https://infinispan.org/blog/2024/05/08/infinispan-15" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: InstructLab: Advancing generative AI through open source</title>
+    <updated>2024-05-07T14:00:00Z</updated>
+    <id>56ff36af-898c-42cf-ac51-7c94e65c50e8</id>
+    <link href="https://developers.redhat.com/articles/2024/05/07/instructlab-open-source-generative-ai" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Apply generative AI to app modernization with Konveyor AI</title>
+    <updated>2024-05-07T14:00:00Z</updated>
+    <id>4d2c2efd-c82c-47f7-b58d-858c7e654153</id>
+    <link href="https://developers.redhat.com/articles/2024/05/07/modernize-apps-konveyor-ai" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Introducing image mode for RHEL and bootable containers in Podman Desktop</title>
+    <updated>2024-05-07T13:30:00Z</updated>
+    <id>03c90bf3-7769-470e-8a6a-f8f37ad2dfb5</id>
+    <link href="https://developers.redhat.com/articles/2024/05/07/image-mode-rhel-bootable-containers" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Discover Podman Desktop for containers and Kubernetes</title>
+    <updated>2024-05-07T13:30:00Z</updated>
+    <id>f77dd167-f7f8-482b-bc02-c5cb2326789f</id>
+    <link href="https://developers.redhat.com/articles/2024/05/07/manage-containers-podman-desktop" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: AI Lab Recipes</title>
+    <updated>2024-05-07T13:30:00Z</updated>
+    <id>2050f7db-7445-468e-a70d-578c6ab393c4</id>
+    <link href="https://developers.redhat.com/articles/2024/05/07/podman-ai-lab-recipes" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Introducing Podman AI Lab: Developer tooling for working with LLMs</title>
+    <updated>2024-05-07T13:30:00Z</updated>
+    <id>2d88ce7a-84ae-428a-8915-a7a29d519ddf</id>
+    <link href="https://developers.redhat.com/articles/2024/05/07/introducing-podman-ai-lab" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Podman Desktop brings the Red Hat Developer Subscription to your fingertips</title>
+    <updated>2024-05-07T13:30:00Z</updated>
+    <id>a27d0a2f-06c6-42b7-83b8-8f1ca7c79921</id>
+    <link href="https://developers.redhat.com/articles/2024/05/07/podman-desktop-red-hat-developer-subscription" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Announcing image mode for Red Hat Enterprise Linux</title>
+    <updated>2024-05-07T13:30:00Z</updated>
+    <id>df0bb59e-3a11-47ac-8d05-6a97bf98b99a</id>
+    <link href="https://developers.redhat.com/articles/2024/05/07/announcing-image-mode-red-hat-enterprise-linux" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: High availability in Keycloak 24</title>
+    <updated>2024-05-07T00:00:00Z</updated>
+    <id>https://www.keycloak.org/2024/05/keycloak-at-devoxx-france-2024-recap</id>
+    <link href="https://www.keycloak.org/2024/05/keycloak-at-devoxx-france-2024-recap" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: How to provision WildFly with Ansible</title>
+    <updated>2024-05-02T12:24:06Z</updated>
+    <id>https://www.mastertheboss.com/howto/jboss-config/provisioning-wildfly-10-with-ansible/</id>
+    <link href="https://www.mastertheboss.com/howto/jboss-config/provisioning-wildfly-10-with-ansible/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: How to start WildFly with a custom Banner</title>
+    <updated>2024-05-01T13:57:57Z</updated>
+    <id>https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-start-wildfly-with-a-custom-banner/</id>
+    <link href="https://www.mastertheboss.com/jbossas/jboss-configuration/how-to-start-wildfly-with-a-custom-banner/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Configuring a Caching Realm with Elytron</title>
+    <updated>2024-04-30T10:19:47Z</updated>
+    <id>https://www.mastertheboss.com/jbossas/jboss-security/configuring-a-cached-realm-with-elytron/</id>
+    <link href="https://www.mastertheboss.com/jbossas/jboss-security/configuring-a-cached-realm-with-elytron/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Vlog: WildFly Glow, WildFly 32 deployment to OpenShift with database access</title>
+    <updated>2024-04-30T00:00:00Z</updated>
+    <id>https://www.youtube.com/watch?v=z9JnweD4zQQ</id>
+    <link href="https://www.youtube.com/watch?v=z9JnweD4zQQ" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Quarkus 3.10 - Hibernate Search standalone POJO mapper, Flyway 10, security enhancements</title>
+    <updated>2024-04-30T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-10-0-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-10-0-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Quarkus 3.10 - Hibernate Search standalone POJO mapper, Flyway 10, security enhancements</title>
+    <updated>2024-04-30T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-10-0-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-10-0-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Secure WildFly applications with OpenID Connect</title>
+    <updated>2024-04-29T07:48:03Z</updated>
+    <id>https://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/</id>
+    <link href="https://www.mastertheboss.com/jbossas/jboss-security/secure-wildfly-applications-with-openid-connect/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Quarkus 3.9.5 released - Maintenance release</title>
+    <updated>2024-04-29T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-9-5-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-9-5-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Infinispan at Devoxx France 2024</title>
+    <updated>2024-04-29T00:00:00Z</updated>
+    <id>https://infinispan.org/blog/2024/04/29/infinispan-devoxx-france</id>
+    <link href="https://infinispan.org/blog/2024/04/29/infinispan-devoxx-france" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Quarkus 3.9.5 released - Maintenance release</title>
+    <updated>2024-04-29T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-9-5-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-9-5-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Product-Market Fit Framework for B2B Startups</title>
+    <updated>2024-04-28T18:35:00Z</updated>
+    <id>http://www.ofbizian.com/2024/04/product-market-fit-framework-for-b2b.html</id>
+    <link href="http://www.ofbizian.com/2024/04/product-market-fit-framework-for-b2b.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Indexing rollover with Quarkus and Hibernate Search</title>
+    <updated>2024-04-25T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/search-indexing-rollover/</id>
+    <link href="https://quarkus.io/blog/search-indexing-rollover/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: WildFly 32 is released!</title>
+    <updated>2024-04-25T00:00:00Z</updated>
+    <id>https://wildfly.org//news/2024/04/25/WildFly32-Released/</id>
+    <link href="https://wildfly.org//news/2024/04/25/WildFly32-Released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Indexing rollover with Quarkus and Hibernate Search</title>
+    <updated>2024-04-25T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/search-indexing-rollover/</id>
+    <link href="https://quarkus.io/blog/search-indexing-rollover/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Obtaining heap dump on OutOfMemoryError with Quarkus native</title>
+    <updated>2024-04-23T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/heapdump-oome-native/</id>
+    <link href="https://quarkus.io/blog/heapdump-oome-native/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Obtaining heap dump on OutOfMemoryError with Quarkus native</title>
+    <updated>2024-04-23T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/heapdump-oome-native/</id>
+    <link href="https://quarkus.io/blog/heapdump-oome-native/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Ship.Cars leverages Quarkus to reach its goals</title>
+    <updated>2024-04-22T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/ship-cars-leverages-quarkus-to-reach-its-goals/</id>
+    <link href="https://quarkus.io/blog/ship-cars-leverages-quarkus-to-reach-its-goals/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Ship.Cars leverages Quarkus to reach its goals</title>
+    <updated>2024-04-22T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/ship-cars-leverages-quarkus-to-reach-its-goals/</id>
+    <link href="https://quarkus.io/blog/ship-cars-leverages-quarkus-to-reach-its-goals/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>JBoss Blogs: How to debug Quarkus applications</title>
     <updated>2024-04-19T08:24:14Z</updated>
     <id>https://www.mastertheboss.com/soa-cloud/quarkus/how-to-debug-quarkus-applications/</id>
@@ -11,24 +235,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Red Hat Trusted Software Supply Chain is now available</title>
-    <updated>2024-04-18T12:27:00Z</updated>
-    <id>2c923162-748e-4d09-b609-dabe3c942837</id>
-    <link href="https://developers.redhat.com/articles/2024/04/18/red-hat-trusted-software-supply-chain-now-available" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: Quarkus 3.9.4 released - Maintenance release</title>
     <updated>2024-04-18T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-9-4-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-9-4-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Revolutionizing time tracking: how Quarkus transformed our backend development</title>
-    <updated>2024-04-18T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-saas-backend-time-tracking-app-case-study/</id>
-    <link href="https://quarkus.io/blog/quarkus-saas-backend-time-tracking-app-case-study/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -46,31 +256,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Synchronize instance tags from Amazon EC2 and Microsoft Azure with Red Hat Insights</title>
-    <updated>2024-04-17T07:00:00Z</updated>
-    <id>255642ce-124f-466c-a3ad-8193e30d94a1</id>
-    <link href="https://developers.redhat.com/articles/2024/04/17/synchronize-instance-tags-amazon-ec2-and-microsoft-azure-red-hat-insights" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: How to configure Keycloak Log Level</title>
-    <updated>2024-04-17T06:45:16Z</updated>
-    <id>https://www.mastertheboss.com/keycloak/how-to-configure-keycloak-log-level/</id>
-    <link href="https://www.mastertheboss.com/keycloak/how-to-configure-keycloak-log-level/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Quarkus 3.8.4 released - Maintenance release</title>
-    <updated>2024-04-17T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-8-4-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-8-4-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus 3.8.4 released - Maintenance release</title>
-    <updated>2024-04-17T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-8-4-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-8-4-released/" rel="alternate"/>
+    <title>JBoss Blogs: Revolutionizing time tracking: how Quarkus transformed our backend development</title>
+    <updated>2024-04-18T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-saas-backend-time-tracking-app-case-study/</id>
+    <link href="https://quarkus.io/blog/quarkus-saas-backend-time-tracking-app-case-study/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -81,38 +270,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus 3.2.12.Final released - Maintenance LTS release</title>
+    <title>Quarkus: Quarkus 3.8.4 released - Maintenance release</title>
     <updated>2024-04-17T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-2-12-final-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-2-12-final-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Speed your migration to JBoss EAP 8 with Windup</title>
-    <updated>2024-04-16T15:41:07Z</updated>
-    <id>https://www.mastertheboss.com/jboss-frameworks/windup/speed-your-migration-to-jboss-eap-8-with-windup/</id>
-    <link href="https://www.mastertheboss.com/jboss-frameworks/windup/speed-your-migration-to-jboss-eap-8-with-windup/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: Containerize Node.js applications at the edge on RHEL and Fedora</title>
-    <updated>2024-04-16T07:00:00Z</updated>
-    <id>439ec80a-7e42-4ad5-952b-dd6a65335107</id>
-    <link href="https://developers.redhat.com/articles/2024/04/16/containerize-nodejs-applications-edge-rhel-and-fedora" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: How to monitor OpenShift using the Datadog Operator</title>
-    <updated>2024-04-16T07:00:00Z</updated>
-    <id>d254131b-230e-417c-88ce-16c0f9e6785f</id>
-    <link href="https://developers.redhat.com/articles/2024/04/16/how-monitor-openshift-using-datadog-operator" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Keycloak 24.0.3 released</title>
-    <updated>2024-04-16T00:00:00Z</updated>
-    <id>https://www.keycloak.org/2024/04/keycloak-2403-released</id>
-    <link href="https://www.keycloak.org/2024/04/keycloak-2403-released" rel="alternate"/>
+    <id>https://quarkus.io/blog/quarkus-3-8-4-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-8-4-released/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -123,167 +284,6 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus Newsletter #43 - April</title>
-    <updated>2024-04-16T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-newsletter-43/</id>
-    <link href="https://quarkus.io/blog/quarkus-newsletter-43/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: Patch updates on RHEL servers with Ansible Automation Platform 2.4</title>
-    <updated>2024-04-15T07:00:00Z</updated>
-    <id>5a535088-5c6e-485d-b978-b368d3ba9679</id>
-    <link href="https://developers.redhat.com/articles/2024/04/15/patch-updates-rhel-servers-ansible-automation-platform-24" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: Red Hat build of Keycloak high availability: A simplified approach</title>
-    <updated>2024-04-15T07:00:00Z</updated>
-    <id>87f48fb2-1046-45cd-9a0a-862a19513c5a</id>
-    <link href="https://developers.redhat.com/articles/2024/04/15/red-hat-build-keycloak-high-availability-simplified-approach" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Recap from KubeCon + CloudNativeCon Europe 2024</title>
-    <updated>2024-04-15T00:00:00Z</updated>
-    <id>https://www.keycloak.org/2024/04/keycloak-at-kubecon-eu-2024-recap</id>
-    <link href="https://www.keycloak.org/2024/04/keycloak-at-kubecon-eu-2024-recap" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: Modernization - A reference appraoch, where to begin and how</title>
-    <updated>2024-04-12T13:03:29Z</updated>
-    <id>b91f5368-3214-4dbb-9122-d40b8287c1cc</id>
-    <link href="https://developers.redhat.com/articles/2024/04/12/modernization-reference-appraoch-where-begin-and-how" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: Modernization: Managing data during the process</title>
-    <updated>2024-04-12T12:33:22Z</updated>
-    <id>f3978cd8-0be5-4dcf-8a16-10fc045c4286</id>
-    <link href="https://developers.redhat.com/articles/2024/04/12/modernization-managing-data-during-process" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: Event-Driven Ansible rulebook for automation</title>
-    <updated>2024-04-12T07:00:00Z</updated>
-    <id>20fc0b60-1f0c-4170-b41c-78c579490fcf</id>
-    <link href="https://developers.redhat.com/articles/2024/04/12/event-driven-ansible-rulebook-automation" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: How to create an automation mesh with Ansible controller</title>
-    <updated>2024-04-12T07:00:00Z</updated>
-    <id>d596a2eb-4987-42c7-a07c-016f283da5b8</id>
-    <link href="https://developers.redhat.com/articles/2024/04/12/how-create-automation-mesh-ansible-controller" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: A Beginner’s Guide to Ansible Ad Hoc Commands</title>
-    <updated>2024-04-11T11:32:24Z</updated>
-    <id>https://www.mastertheboss.com/various-stuff/ansible/a-beginners-guide-to-ansible-ad-hoc-commands/</id>
-    <link href="https://www.mastertheboss.com/various-stuff/ansible/a-beginners-guide-to-ansible-ad-hoc-commands/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Simplifying migration to Jakarta EE with tools</title>
-    <updated>2024-04-11T08:44:37Z</updated>
-    <id>https://www.mastertheboss.com/java-ee/jakarta-ee/simplifying-to-migration-to-jakarta-ee-with-tools/</id>
-    <link href="https://www.mastertheboss.com/java-ee/jakarta-ee/simplifying-to-migration-to-jakarta-ee-with-tools/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Improving the Vert.x Micrometer Metrics performance</title>
-    <updated>2024-04-11T00:00:00Z</updated>
-    <id>https://vertx.io/blog/micrometer-metrics-performance</id>
-    <link href="https://vertx.io/blog/micrometer-metrics-performance" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Hibernate finds a new Home at Commonhaus Foundation</title>
-    <updated>2024-04-10T07:22:39Z</updated>
-    <id>https://www.mastertheboss.com/hibernate-jpa/hibernate-configuration/hibernate-finds-a-new-home-at-commonhaus-foundation/</id>
-    <link href="https://www.mastertheboss.com/hibernate-jpa/hibernate-configuration/hibernate-finds-a-new-home-at-commonhaus-foundation/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus 3.9.3 released - Maintenance release</title>
-    <updated>2024-04-10T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-9-3-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-9-3-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Quarkus 3.9.3 released - Maintenance release</title>
-    <updated>2024-04-10T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-9-3-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-9-3-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: WildFly 32 Beta is released!</title>
-    <updated>2024-04-08T00:00:00Z</updated>
-    <id>https://wildfly.org//news/2024/04/08/WildFly32Beta-released/</id>
-    <link href="https://wildfly.org//news/2024/04/08/WildFly32Beta-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Infinispan 15 tracing news</title>
-    <updated>2024-04-05T00:00:00Z</updated>
-    <id>https://infinispan.org/blog/2024/04/05/infinispan-15-tracing</id>
-    <link href="https://infinispan.org/blog/2024/04/05/infinispan-15-tracing" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: How to provision WildFly with Ansible</title>
-    <updated>2024-04-04T07:29:57Z</updated>
-    <id>https://www.mastertheboss.com/howto/jboss-config/provisioning-wildfly-10-with-ansible/</id>
-    <link href="https://www.mastertheboss.com/howto/jboss-config/provisioning-wildfly-10-with-ansible/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Quarkus 3.9.2 released - Maintenance release</title>
-    <updated>2024-04-03T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-9-2-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-9-2-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Changing the Quarkus loggers level from Unleash</title>
-    <updated>2024-04-03T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/changing-loggers-level-from-unleash/</id>
-    <link href="https://quarkus.io/blog/changing-loggers-level-from-unleash/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus 3.9.2 released - Maintenance release</title>
-    <updated>2024-04-03T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-9-2-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-9-2-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Changing the Quarkus loggers level from Unleash</title>
-    <updated>2024-04-03T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/changing-loggers-level-from-unleash/</id>
-    <link href="https://quarkus.io/blog/changing-loggers-level-from-unleash/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Use OIDC Proxy to integrate OIDC service endpoints with custom GPT</title>
-    <updated>2024-03-27T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/oidc-proxy/</id>
-    <link href="https://quarkus.io/blog/oidc-proxy/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus 3.9 - Big Reactive Rename</title>
-    <updated>2024-03-27T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-9-1-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-9-1-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Tools: JBoss Tools 4.29.0.Final for Eclipse 2023-09</title>
     <updated>2023-11-02T00:00:00Z</updated>
     <id>https://tools.jboss.org/blog/4.29.0.final.html</id>
@@ -291,17 +291,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Tools: JBoss Tools 4.28.0.Final for Eclipse 2023-06</title>
-    <updated>2023-07-03T00:00:00Z</updated>
-    <id>https://tools.jboss.org/blog/4.28.0.final.html</id>
-    <link href="https://tools.jboss.org/blog/4.28.0.final.html" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: This Week in JBoss - July 03, 2023</title>
     <updated>2023-07-03T00:00:00Z</updated>
     <id>https://www.jboss.org/posts/weekly-2023-07-03.html</id>
     <link href="https://www.jboss.org/posts/weekly-2023-07-03.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Tools: JBoss Tools 4.28.0.Final for Eclipse 2023-06</title>
+    <updated>2023-07-03T00:00:00Z</updated>
+    <id>https://tools.jboss.org/blog/4.28.0.final.html</id>
+    <link href="https://tools.jboss.org/blog/4.28.0.final.html" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>

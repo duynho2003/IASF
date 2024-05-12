@@ -121,4 +121,17 @@ public class BookController {
 		
 		return "redirect:/books";
 	}
+	
+	@GetMapping("/search")
+	public ModelAndView bookSearch(@RequestParam("searchText") String searchText) {
+		List<Book> listBooks = bookService.search(searchText);
+		BookOrderDto bookOrderDto = new BookOrderDto();
+		List<Customer> listCustomers = customerService.listAll();
+
+		ModelAndView mav = new ModelAndView("books");
+		mav.addObject("listBooks", listBooks);
+		mav.addObject("bookOrder", bookOrderDto);
+		mav.addObject("listCustomers",listCustomers);
+		return mav;
+	}
 }
